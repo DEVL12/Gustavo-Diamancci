@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@600&display=swap');
+
+*{
+  font-family: 'Anek Telugu', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+  margin: 0px;
+}
+
+/*------------------------------START HEADER------------------------------*/
+header{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #1b1c22;  
+  width: 100%;
+  min-height: 80px;
+  box-shadow: 2px 0px 12px black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+div.style-header{
+  min-width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+img.img-header{
+  width: 80px;
+  margin: 10px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+}
+
+ul.links-header{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+ul.links-header > li > a{
+  min-width: 200px;
+  height: 35px;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+ul.links-header > li > a:hover{
+  border-bottom: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  color: #1b1c22;
+  border-radius: 12px;
+}
+
+ul.links-header > li > a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*------------------------------END HEADER------------------------------*/
